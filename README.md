@@ -124,7 +124,10 @@ If no errors are found, the installation is successful.
    ```bash
    /usr/local/bin/cortensord ~/.cortensor/.env tool gen_key
    ```
-3. **Register the Node**
+   ***Fill out this form with details [HERE](https://docs.google.com/forms/u/0/d/e/1FAIpQLSfNEGWnWO10pnMPu5uX6yk4mZ9qf4fOxvTqcsFaO9V88OQFJw/formResponse)
+   ***For Referral - Discord ID use:  `Suryaone`
+   
+4. **Register the Node**
    ```bash
    /usr/local/bin/cortensord ~/.cortensor/.env tool register
    ```
