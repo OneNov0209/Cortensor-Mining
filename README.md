@@ -1,4 +1,4 @@
-# Step-by-Step Guide to Installing Cortensor Mining AI
+# Guide to Installing Cortensor Mining
 
 This guide will help you install Cortensor Mining AI on your server and join the incentivized testnet.
 
@@ -77,7 +77,7 @@ cd installer
 
 ### **3. Install Docker**
 ```bash
-./install-docker-ubuntu.sh # For Ubuntu 22.04
+./install-docker-ubuntu.sh
 ```
 
 ### **4. Install IPFS**
