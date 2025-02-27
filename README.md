@@ -128,6 +128,8 @@ If no errors are found, the installation is successful.
    ```bash
    /usr/local/bin/cortensord ~/.cortensor/.env tool register
    ```
+**After your Node is approved by the Cortensor team and your data is Valid, follow these steps**
+   
 4. **Verify the Node**
    ```bash
    /usr/local/bin/cortensord ~/.cortensor/.env tool verify
