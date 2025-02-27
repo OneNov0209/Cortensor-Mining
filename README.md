@@ -19,6 +19,7 @@ Cortensor aims to democratize AI by leveraging the power of decentralized networ
 - [Cortensor Website](https://cortensor.network/)
 - [Cortensor Discord](https://discord.gg/cortensor)
 - [Cortensor Telegram](https://t.me/CortensorNetwork)
+- [X/Twitter](https://twitter.com/cortensor)
 
 ---
 
