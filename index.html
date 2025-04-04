@@ -332,8 +332,8 @@
             border-radius: 8px;
             overflow-x: auto;
             font-family: 'Fira Code', 'Courier New', Courier, monospace;
-            font-size: 14px;
-            line-height: 1.5;
+            font-size: 16px; /* Increased from 14px */
+            line-height: 1.6; /* Increased from 1.5 */
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             border: 1px solid rgba(255, 255, 255, 0.05);
             margin: 0;
@@ -378,7 +378,8 @@
             color: var(--secondary);
             padding: 3px 6px;
             border-radius: 4px;
-            font-size: 0.9em;
+            font-size: 1em; /* Increased from 0.9em */
+            font-weight: 500; /* Added for better visibility */
         }
         
         .note {
@@ -466,6 +467,35 @@
             background: radial-gradient(circle, var(--secondary) 0%, transparent 70%);
         }
         
+        /* Desktop-specific overrides */
+        @media (min-width: 1024px) {
+            pre {
+                font-size: 18px; /* Even larger on desktop */
+                line-height: 1.7;
+                padding: 25px;
+                padding-right: 55px;
+            }
+            
+            code {
+                font-size: 1.05em;
+            }
+            
+            .code-block {
+                margin: 25px 0;
+            }
+            
+            .copy-btn {
+                width: 42px;
+                height: 42px;
+            }
+            
+            .copy-icon {
+                width: 22px;
+                height: 22px;
+            }
+        }
+        
+        /* Mobile overrides */
         @media (max-width: 768px) {
             .container {
                 padding: 15px;
@@ -494,7 +524,7 @@
             
             pre {
                 padding: 15px;
-                font-size: 13px;
+                font-size: 15px; /* Increased from 13px */
             }
             
             th, td {
@@ -532,7 +562,7 @@
             <div class="glow glow-1"></div>
             <div class="glow glow-2"></div>
             <div class="logo-container">
-                <img src="https://i.ibb.co.com/zWqvCtQt/IMG-20250404-210646-290.jpg" alt="Cortensor Logo" class="logo">
+                <img src="/api/placeholder/180/180" alt="Cortensor Logo" class="logo">
             </div>
             <h1>Guide to Installing Cortensor Mining</h1>
             <p class="subtitle">Join the incentivized testnet and start mining on the decentralized AI network</p>
