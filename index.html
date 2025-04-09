@@ -956,6 +956,55 @@ nano ~/.cortensor/.env</pre>
             </ul>
         </section>
 
+        <section id="upgrade">
+    <div class="glow glow-1"></div>
+    <h2>Upgrade Menu</h2>
+    <p>Use these commands to upgrade your node to different devnets:</p>
+
+    <h3>Devnet 3</h3>
+    <div class="code-block">
+        <pre>sudo su deploy
+cd installer
+git pull
+./upgrade-linux.sh
+./utils/use-devnet3.sh</pre>
+        <button class="copy-btn" onclick="copyToClipboard(this)">
+            <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+        </button>
+    </div>
+
+    <h3>Devnet 4</h3>
+    <div class="code-block">
+        <pre>sudo su deploy
+cd installer
+git pull
+./upgrade-linux.sh
+./utils/use-devnet4.sh</pre>
+        <button class="copy-btn" onclick="copyToClipboard(this)">
+            <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div class="note">
+        <strong>Note:</strong> After upgrading, you may need to restart your node services:
+        <div class="code-block">
+            <pre>sudo systemctl restart cortensor</pre>
+            <button class="copy-btn" onclick="copyToClipboard(this)">
+                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+        </section>
+
         <div class="success">
             <div class="glow glow-2"></div>
             <h2>Congratulations! 🚀</h2>
